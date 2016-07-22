@@ -13,6 +13,14 @@
 		9668B1491D4128B40070D8A6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9668B1471D4128B40070D8A6 /* Main.storyboard */; };
 		9668B14B1D4128B40070D8A6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9668B14A1D4128B40070D8A6 /* Assets.xcassets */; };
 		9668B14E1D4128B40070D8A6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9668B14C1D4128B40070D8A6 /* LaunchScreen.storyboard */; };
+		9668B1571D4132D00070D8A6 /* Human.m in Sources */ = {isa = PBXBuildFile; fileRef = 9668B1561D4132D00070D8A6 /* Human.m */; };
+		9668B15A1D41343F0070D8A6 /* Runner.m in Sources */ = {isa = PBXBuildFile; fileRef = 9668B1591D41343F0070D8A6 /* Runner.m */; };
+		9668B15D1D4134730070D8A6 /* Cyclist.m in Sources */ = {isa = PBXBuildFile; fileRef = 9668B15C1D4134730070D8A6 /* Cyclist.m */; };
+		9668B1601D4134990070D8A6 /* Swimmer.m in Sources */ = {isa = PBXBuildFile; fileRef = 9668B15F1D4134990070D8A6 /* Swimmer.m */; };
+		9668B1631D4144D70070D8A6 /* Indication.m in Sources */ = {isa = PBXBuildFile; fileRef = 9668B1621D4144D70070D8A6 /* Indication.m */; };
+		9668B1661D414A880070D8A6 /* Animal.m in Sources */ = {isa = PBXBuildFile; fileRef = 9668B1651D414A880070D8A6 /* Animal.m */; };
+		9668B16B1D414BB90070D8A6 /* Dog.m in Sources */ = {isa = PBXBuildFile; fileRef = 9668B16A1D414BB90070D8A6 /* Dog.m */; };
+		9668B16E1D414BCB0070D8A6 /* Cat.m in Sources */ = {isa = PBXBuildFile; fileRef = 9668B16D1D414BCB0070D8A6 /* Cat.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +34,22 @@
 		9668B14A1D4128B40070D8A6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9668B14D1D4128B40070D8A6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9668B14F1D4128B40070D8A6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9668B1551D4132D00070D8A6 /* Human.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Human.h; sourceTree = "<group>"; };
+		9668B1561D4132D00070D8A6 /* Human.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Human.m; sourceTree = "<group>"; };
+		9668B1581D41343F0070D8A6 /* Runner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Runner.h; sourceTree = "<group>"; };
+		9668B1591D41343F0070D8A6 /* Runner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Runner.m; sourceTree = "<group>"; };
+		9668B15B1D4134730070D8A6 /* Cyclist.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Cyclist.h; sourceTree = "<group>"; };
+		9668B15C1D4134730070D8A6 /* Cyclist.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Cyclist.m; sourceTree = "<group>"; };
+		9668B15E1D4134990070D8A6 /* Swimmer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Swimmer.h; sourceTree = "<group>"; };
+		9668B15F1D4134990070D8A6 /* Swimmer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Swimmer.m; sourceTree = "<group>"; };
+		9668B1611D4144D70070D8A6 /* Indication.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Indication.h; sourceTree = "<group>"; };
+		9668B1621D4144D70070D8A6 /* Indication.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Indication.m; sourceTree = "<group>"; };
+		9668B1641D414A880070D8A6 /* Animal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Animal.h; sourceTree = "<group>"; };
+		9668B1651D414A880070D8A6 /* Animal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Animal.m; sourceTree = "<group>"; };
+		9668B1691D414BB90070D8A6 /* Dog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Dog.h; sourceTree = "<group>"; };
+		9668B16A1D414BB90070D8A6 /* Dog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Dog.m; sourceTree = "<group>"; };
+		9668B16C1D414BCB0070D8A6 /* Cat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Cat.h; sourceTree = "<group>"; };
+		9668B16D1D414BCB0070D8A6 /* Cat.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Cat.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,9 +98,41 @@
 		9668B13E1D4128B40070D8A6 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				9668B13F1D4128B40070D8A6 /* main.m */,
+				9668B1671D414AAA0070D8A6 /* Human */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9668B1671D414AAA0070D8A6 /* Human */ = {
+			isa = PBXGroup;
+			children = (
+				9668B1551D4132D00070D8A6 /* Human.h */,
+				9668B1561D4132D00070D8A6 /* Human.m */,
+				9668B13F1D4128B40070D8A6 /* main.m */,
+				9668B1581D41343F0070D8A6 /* Runner.h */,
+				9668B1591D41343F0070D8A6 /* Runner.m */,
+				9668B15B1D4134730070D8A6 /* Cyclist.h */,
+				9668B15C1D4134730070D8A6 /* Cyclist.m */,
+				9668B15E1D4134990070D8A6 /* Swimmer.h */,
+				9668B15F1D4134990070D8A6 /* Swimmer.m */,
+				9668B1611D4144D70070D8A6 /* Indication.h */,
+				9668B1621D4144D70070D8A6 /* Indication.m */,
+				9668B16F1D422D870070D8A6 /* Animal */,
+			);
+			name = Human;
+			sourceTree = "<group>";
+		};
+		9668B16F1D422D870070D8A6 /* Animal */ = {
+			isa = PBXGroup;
+			children = (
+				9668B1641D414A880070D8A6 /* Animal.h */,
+				9668B1651D414A880070D8A6 /* Animal.m */,
+				9668B1691D414BB90070D8A6 /* Dog.h */,
+				9668B16A1D414BB90070D8A6 /* Dog.m */,
+				9668B16C1D414BCB0070D8A6 /* Cat.h */,
+				9668B16D1D414BCB0070D8A6 /* Cat.m */,
+			);
+			name = Animal;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -150,9 +206,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9668B16E1D414BCB0070D8A6 /* Cat.m in Sources */,
 				9668B1461D4128B40070D8A6 /* ViewController.m in Sources */,
+				9668B1631D4144D70070D8A6 /* Indication.m in Sources */,
+				9668B16B1D414BB90070D8A6 /* Dog.m in Sources */,
+				9668B15D1D4134730070D8A6 /* Cyclist.m in Sources */,
 				9668B1431D4128B40070D8A6 /* AppDelegate.m in Sources */,
 				9668B1401D4128B40070D8A6 /* main.m in Sources */,
+				9668B1571D4132D00070D8A6 /* Human.m in Sources */,
+				9668B1661D414A880070D8A6 /* Animal.m in Sources */,
+				9668B15A1D41343F0070D8A6 /* Runner.m in Sources */,
+				9668B1601D4134990070D8A6 /* Swimmer.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -303,6 +367,7 @@
 				9668B1541D4128B40070D8A6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
